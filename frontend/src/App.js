@@ -337,7 +337,7 @@ const App = () => {
                 <div className="text-4xl mb-4">{product.icon}</div>
                 <h3 className="text-2xl font-bold text-white mb-4">{product.title}</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">{product.description}</p>
-                <div className="space-y-2">
+                <div className="space-y-2 mb-6">
                   {product.features.map((feature, idx) => (
                     <div key={idx} className="flex items-center text-sm text-gray-400">
                       <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-3"></div>
@@ -345,6 +345,12 @@ const App = () => {
                     </div>
                   ))}
                 </div>
+                <button 
+                  onClick={() => openProductModal(product)}
+                  className="w-full px-4 py-2 bg-gradient-to-r from-blue-600/20 to-cyan-600/20 border border-blue-400/30 text-blue-300 font-medium rounded-lg hover:from-blue-600/30 hover:to-cyan-600/30 hover:border-blue-400/50 transition-all duration-300"
+                >
+                  Learn More & Website Details
+                </button>
               </div>
             ))}
           </div>
