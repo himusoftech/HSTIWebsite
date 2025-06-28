@@ -62,16 +62,6 @@ const App = () => {
     setSelectedProduct(null);
   };
 
-  const openProductModal = (product) => {
-    setSelectedProduct(product);
-    setShowProductModal(true);
-  };
-
-  const closeProductModal = () => {
-    setShowProductModal(false);
-    setSelectedProduct(null);
-  };
-
   const products = [
     {
       title: "Vehicle Tracking System",
