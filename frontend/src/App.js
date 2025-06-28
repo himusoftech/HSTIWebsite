@@ -359,7 +359,7 @@ const App = () => {
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">Support</a>
             </div>
             <p className="text-gray-500 text-sm">
-              © 2024 HiMusofTech. All rights reserved.
+              © 2024 Himu SofTech India Pvt Ltd. All rights reserved.
             </p>
           </div>
         </div>
