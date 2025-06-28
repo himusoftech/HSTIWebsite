@@ -8,6 +8,22 @@ const App = () => {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
+  const openProductModal = (product) => {
+    setSelectedProduct(product);
+    setShowProductModal(true);
+  };
+
+  const closeProductModal = () => {
+    setShowProductModal(false);
+    setSelectedProduct(null);
+  };
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const [selectedProduct, setSelectedProduct] = useState(null);
