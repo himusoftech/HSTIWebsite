@@ -54,9 +54,9 @@ const App = () => {
     },
     {
       title: "LPG Suvidha",
-      description: "Complete LPG distributor management system for efficient operations, customer management, and inventory control.",
+      description: "Manage your STOCK, Payments Reconciliation and Daily operations with ease. The app will reconcile Godown stock, Delivery boy sales, and compare with SDMS reports for deviation. Complete LPG distributor management system for efficient operations.",
       icon: "⛽",
-      features: ["Customer management", "Inventory tracking", "Delivery scheduling", "Payment processing"]
+      features: ["Stock reconciliation", "Payment reconciliation", "SDMS comparison", "Delivery management"]
     }
   ];
 
