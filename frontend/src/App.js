@@ -45,23 +45,6 @@ const App = () => {
     setSelectedProduct(null);
   };
 
-  const scrollToSection = (sectionId) => {
-    document.getElementById(sectionId)?.scrollIntoView({ 
-      behavior: 'smooth',
-      block: 'start'
-    });
-  };
-
-  const openProductModal = (product) => {
-    setSelectedProduct(product);
-    setShowProductModal(true);
-  };
-
-  const closeProductModal = () => {
-    setShowProductModal(false);
-    setSelectedProduct(null);
-  };
-
   const products = [
     {
       title: "Vehicle Tracking System",
