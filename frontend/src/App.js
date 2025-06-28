@@ -40,25 +40,113 @@ const App = () => {
       title: "Vehicle Tracking System",
       description: "Advanced GPS-based tracking solution for fleet management with real-time monitoring, route optimization, and comprehensive reporting.",
       icon: "🚛",
-      features: ["Real-time GPS tracking", "Route optimization", "Driver behavior analysis", "Fuel management"]
+      features: ["Real-time GPS tracking", "Route optimization", "Driver behavior analysis", "Fuel management"],
+      details: {
+        overview: "Comprehensive vehicle tracking and fleet management solution designed to optimize your transportation operations and reduce costs.",
+        keyFeatures: [
+          "Real-time GPS tracking with live map interface",
+          "Geofencing and alert notifications",
+          "Route optimization for fuel efficiency",
+          "Driver behavior monitoring and scoring",
+          "Maintenance scheduling and reminders",
+          "Fuel consumption tracking and reporting",
+          "Speed monitoring and violation alerts",
+          "Historical route playback and analysis"
+        ],
+        benefits: [
+          "Reduce operational costs by up to 25%",
+          "Improve driver safety and accountability",
+          "Enhance customer service with accurate ETAs",
+          "Optimize fuel consumption and reduce emissions",
+          "Streamline fleet maintenance operations"
+        ],
+        industries: ["Logistics & Transportation", "Delivery Services", "Construction", "Public Transportation", "Emergency Services"],
+        website: "www.himusoftech.com/vehicle-tracking"
+      }
     },
     {
       title: "Tally Automation",
       description: "Sales and Purchase automation from SDMS to Tally in Minutes. Streamline your accounting processes with automated Tally integration, reducing manual work and improving accuracy.",
       icon: "📊",
-      features: ["SDMS to Tally automation", "Real-time sync", "Report generation", "Error reduction"]
+      features: ["SDMS to Tally automation", "Real-time sync", "Report generation", "Error reduction"],
+      details: {
+        overview: "Revolutionary automation solution that seamlessly integrates SDMS (Sales & Distribution Management System) with Tally, eliminating manual data entry and ensuring accuracy.",
+        keyFeatures: [
+          "Automated sales data transfer from SDMS to Tally",
+          "Purchase order automation and synchronization",
+          "Real-time inventory updates across systems",
+          "Automated invoice generation and posting",
+          "Multi-location and multi-company support",
+          "Custom mapping for different account heads",
+          "Error validation and exception handling",
+          "Scheduled and on-demand sync options"
+        ],
+        benefits: [
+          "Reduce data entry time from hours to minutes",
+          "Eliminate human errors in accounting",
+          "Ensure 100% data consistency across systems",
+          "Improve cash flow with faster invoicing",
+          "Generate real-time financial reports"
+        ],
+        industries: ["Retail & Distribution", "Manufacturing", "Wholesale Trading", "FMCG", "Pharmaceutical"],
+        website: "www.himusoftech.com/tally-automation"
+      }
     },
     {
       title: "GST Billing Software",
       description: "Comprehensive GST compliant billing solution with invoice generation, tax calculations, and regulatory compliance.",
       icon: "🧾",
-      features: ["GST compliance", "Invoice automation", "Tax calculations", "Compliance reports"]
+      features: ["GST compliance", "Invoice automation", "Tax calculations", "Compliance reports"],
+      details: {
+        overview: "Complete GST billing and compliance solution that ensures your business meets all regulatory requirements while streamlining your billing processes.",
+        keyFeatures: [
+          "GST compliant invoice generation",
+          "Automated tax calculations (CGST, SGST, IGST)",
+          "E-way bill generation and management",
+          "GSTR-1, GSTR-3B report generation",
+          "TDS and TCS calculations",
+          "HSN/SAC code management",
+          "Multi-state taxation handling",
+          "Digital signature integration"
+        ],
+        benefits: [
+          "100% GST compliance guaranteed",
+          "Reduce compliance costs and penalties",
+          "Faster invoice processing and delivery",
+          "Automated tax filing and returns",
+          "Real-time tax liability tracking"
+        ],
+        industries: ["Retail", "Services", "Manufacturing", "Trading", "E-commerce"],
+        website: "www.himusoftech.com/gst-billing"
+      }
     },
     {
       title: "LPG Suvidha",
       description: "Manage your STOCK, Payments Reconciliation and Daily operations with ease. The app will reconcile Godown stock, Delivery boy sales, and compare with SDMS reports for deviation. Complete LPG distributor management system for efficient operations.",
       icon: "⛽",
-      features: ["Stock reconciliation", "Payment reconciliation", "SDMS comparison", "Delivery management"]
+      features: ["Stock reconciliation", "Payment reconciliation", "SDMS comparison", "Delivery management"],
+      details: {
+        overview: "Comprehensive LPG distributor management system that streamlines all aspects of LPG distribution business from stock management to customer delivery.",
+        keyFeatures: [
+          "Real-time godown stock management",
+          "Delivery boy sales tracking and reconciliation",
+          "SDMS report comparison and deviation analysis",
+          "Customer database and booking management",
+          "Payment tracking and reconciliation",
+          "Cylinder tracking and inventory management",
+          "Route optimization for deliveries",
+          "Commission calculation for delivery personnel"
+        ],
+        benefits: [
+          "Eliminate stock discrepancies and losses",
+          "Improve delivery efficiency by 30%",
+          "Automate payment reconciliation process",
+          "Real-time visibility into business operations",
+          "Reduce manual errors and improve accuracy"
+        ],
+        industries: ["LPG Distribution", "Gas Agencies", "Energy Sector", "Retail Gas"],
+        website: "www.himusoftech.com/lpg-suvidha"
+      }
     }
   ];
 
