@@ -91,7 +91,7 @@ const App = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0">
               <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
-                HiMusofTech
+                Himu SofTech India Pvt Ltd
               </h1>
             </div>
             <div className="hidden md:block">
