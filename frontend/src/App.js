@@ -42,9 +42,9 @@ const App = () => {
     },
     {
       title: "Tally Automation",
-      description: "Streamline your accounting processes with automated Tally integration, reducing manual work and improving accuracy.",
+      description: "Sales and Purchase automation from SDMS to Tally in Minutes. Streamline your accounting processes with automated Tally integration, reducing manual work and improving accuracy.",
       icon: "📊",
-      features: ["Automated data entry", "Real-time sync", "Report generation", "Error reduction"]
+      features: ["SDMS to Tally automation", "Real-time sync", "Report generation", "Error reduction"]
     },
     {
       title: "GST Billing Software",
