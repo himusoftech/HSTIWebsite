@@ -303,7 +303,7 @@ const App = () => {
                 </div>
                 <div>
                   <h3 className="text-white font-semibold">Visit Us</h3>
-                  <p className="text-gray-400">India</p>
+                  <p className="text-gray-400">12 5th Main 2nd Block 3rd Stage<br />Basaveshwaranagar, India</p>
                 </div>
               </div>
             </div>
