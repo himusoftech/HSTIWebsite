@@ -285,7 +285,7 @@ const App = () => {
                 </div>
                 <div>
                   <h3 className="text-white font-semibold">Email Us</h3>
-                  <p className="text-gray-400">info@himusoftech.com</p>
+                  <p className="text-gray-400">Support@himusoftech.com</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
