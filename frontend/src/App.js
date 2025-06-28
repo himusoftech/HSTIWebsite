@@ -453,6 +453,100 @@ const App = () => {
           </div>
         </div>
       </footer>
+
+      {/* Product Details Modal */}
+      {showProductModal && selectedProduct && (
+        <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+          <div className="bg-slate-900/95 backdrop-blur-xl border border-white/20 rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+            <div className="sticky top-0 bg-slate-900/95 backdrop-blur-xl border-b border-white/10 p-6 flex justify-between items-center">
+              <div className="flex items-center space-x-4">
+                <span className="text-3xl">{selectedProduct.icon}</span>
+                <h2 className="text-2xl font-bold text-white">{selectedProduct.title}</h2>
+              </div>
+              <button 
+                onClick={closeProductModal}
+                className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors"
+              >
+                <span className="text-white text-xl">×</span>
+              </button>
+            </div>
+            
+            <div className="p-6 space-y-8">
+              {/* Overview */}
+              <div>
+                <h3 className="text-xl font-semibold text-blue-400 mb-3">Overview</h3>
+                <p className="text-gray-300 leading-relaxed">{selectedProduct.details.overview}</p>
+              </div>
+
+              {/* Website Link */}
+              <div className="bg-blue-500/10 border border-blue-400/20 rounded-xl p-4">
+                <h3 className="text-lg font-semibold text-blue-400 mb-2">Product Website</h3>
+                <a 
+                  href={`https://${selectedProduct.details.website}`}
+                  target="_blank"
+                  rel="noopener noreferrer" 
+                  className="text-cyan-300 hover:text-cyan-200 underline break-all"
+                >
+                  {selectedProduct.details.website}
+                </a>
+              </div>
+
+              {/* Key Features */}
+              <div>
+                <h3 className="text-xl font-semibold text-blue-400 mb-4">Key Features</h3>
+                <div className="grid md:grid-cols-2 gap-3">
+                  {selectedProduct.details.keyFeatures.map((feature, index) => (
+                    <div key={index} className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-gray-300 text-sm">{feature}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Benefits */}
+              <div>
+                <h3 className="text-xl font-semibold text-cyan-400 mb-4">Key Benefits</h3>
+                <div className="space-y-3">
+                  {selectedProduct.details.benefits.map((benefit, index) => (
+                    <div key={index} className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-gray-300 text-sm">{benefit}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Industries */}
+              <div>
+                <h3 className="text-xl font-semibold text-purple-400 mb-4">Target Industries</h3>
+                <div className="flex flex-wrap gap-2">
+                  {selectedProduct.details.industries.map((industry, index) => (
+                    <span key={index} className="px-3 py-1 bg-purple-500/20 border border-purple-400/30 text-purple-300 rounded-full text-sm">
+                      {industry}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Contact CTA */}
+              <div className="bg-gradient-to-r from-blue-500/10 to-cyan-500/10 border border-blue-400/20 rounded-xl p-6 text-center">
+                <h3 className="text-lg font-semibold text-white mb-2">Interested in {selectedProduct.title}?</h3>
+                <p className="text-gray-400 mb-4">Contact us for a demo or custom implementation</p>
+                <button 
+                  onClick={() => {
+                    closeProductModal();
+                    scrollToSection('contact');
+                  }}
+                  className="px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-cyan-700 transition-all duration-300"
+                >
+                  Get in Touch
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
