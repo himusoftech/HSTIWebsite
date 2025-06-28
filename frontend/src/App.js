@@ -177,7 +177,7 @@ const App = () => {
                 12+ Years of Excellence
               </h2>
               <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-                Since 2013, HiMusofTech has been at the forefront of software innovation, delivering robust solutions that power businesses across industries. Our expertise spans from complex tracking systems to streamlined automation tools.
+                Since 2013, Himu SofTech India Pvt Ltd has been at the forefront of software innovation, delivering robust solutions that power businesses across industries. Our expertise spans from complex tracking systems to streamlined automation tools.
               </p>
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div className="text-center p-4 bg-white/5 rounded-xl backdrop-blur-sm border border-white/10">
