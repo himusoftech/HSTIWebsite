@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HSTIWebsite/static/css/main.c593500a.css",
+    "main.js": "/HSTIWebsite/static/js/main.b6425bb8.js",
+    "index.html": "/HSTIWebsite/index.html",
+    "main.c593500a.css.map": "/HSTIWebsite/static/css/main.c593500a.css.map",
+    "main.b6425bb8.js.map": "/HSTIWebsite/static/js/main.b6425bb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c593500a.css",
+    "static/js/main.b6425bb8.js"
+  ]
+}
